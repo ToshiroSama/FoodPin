@@ -14,7 +14,7 @@ class RestaurantTableViewCell: UITableViewCell {
     @IBOutlet var typeLabel: UILabel!
     @IBOutlet var thumbnailImageView: UIImageView! {
         didSet {
-            thumbnailImageView.layer.cornerRadius = 60
+            thumbnailImageView.layer.cornerRadius = 50
             thumbnailImageView.clipsToBounds = true
         }
     }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630D0F8A27CA63D000007806 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D0F8927CA63D000007806 /* Restaurant.swift */; };
+		639D544F27CC85C4009FFD69 /* RestaurantDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D544E27CC85C4009FFD69 /* RestaurantDiffableDataSource.swift */; };
 		63E7236227C38D2D0014FE3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E7236127C38D2D0014FE3D /* AppDelegate.swift */; };
 		63E7236427C38D2D0014FE3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E7236327C38D2D0014FE3D /* SceneDelegate.swift */; };
 		63E7236927C38D2D0014FE3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E7236727C38D2D0014FE3D /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		630D0F8927CA63D000007806 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		639D544E27CC85C4009FFD69 /* RestaurantDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDiffableDataSource.swift; sourceTree = "<group>"; };
 		63E7235E27C38D2D0014FE3D /* FoodPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E7236127C38D2D0014FE3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63E7236327C38D2D0014FE3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		630D0F8B27CA66A900007806 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				630D0F8927CA63D000007806 /* Restaurant.swift */,
+				639D544E27CC85C4009FFD69 /* RestaurantDiffableDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		630D0F8C27CA7C5400007806 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63E7237527C38E700014FE3D /* RestaurantTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		630D0F8D27CA7C5F00007806 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63E7237727C3A2950014FE3D /* RestaurantTableViewCell.swift */,
+				63E7236727C38D2D0014FE3D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		630D0F8E27CA7C7900007806 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				63E7236127C38D2D0014FE3D /* AppDelegate.swift */,
+				63E7236327C38D2D0014FE3D /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		63DF5C3927CC994F0000F227 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63E7236A27C38D2D0014FE3D /* Assets.xcassets */,
+				63E7236F27C38D2D0014FE3D /* Info.plist */,
+				63E7236C27C38D2D0014FE3D /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		63E7235527C38D2D0014FE3D = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +107,11 @@
 		63E7236027C38D2D0014FE3D /* FoodPin */ = {
 			isa = PBXGroup;
 			children = (
-				63E7236127C38D2D0014FE3D /* AppDelegate.swift */,
-				63E7236327C38D2D0014FE3D /* SceneDelegate.swift */,
-				63E7237527C38E700014FE3D /* RestaurantTableViewController.swift */,
-				63E7237727C3A2950014FE3D /* RestaurantTableViewCell.swift */,
-				63E7236727C38D2D0014FE3D /* Main.storyboard */,
-				63E7236A27C38D2D0014FE3D /* Assets.xcassets */,
-				63E7236C27C38D2D0014FE3D /* LaunchScreen.storyboard */,
-				63E7236F27C38D2D0014FE3D /* Info.plist */,
+				630D0F8B27CA66A900007806 /* Model */,
+				630D0F8D27CA7C5F00007806 /* View */,
+				630D0F8C27CA7C5400007806 /* Controller */,
+				630D0F8E27CA7C7900007806 /* App */,
+				63DF5C3927CC994F0000F227 /* Resources */,
 			);
 			path = FoodPin;
 			sourceTree = "<group>";
@@ -141,9 +187,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630D0F8A27CA63D000007806 /* Restaurant.swift in Sources */,
 				63E7237827C3A2950014FE3D /* RestaurantTableViewCell.swift in Sources */,
 				63E7236227C38D2D0014FE3D /* AppDelegate.swift in Sources */,
 				63E7236427C38D2D0014FE3D /* SceneDelegate.swift in Sources */,
+				639D544F27CC85C4009FFD69 /* RestaurantDiffableDataSource.swift in Sources */,
 				63E7237627C38E700014FE3D /* RestaurantTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,10 +343,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WUJ5ZM42NZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FoodPin/Info.plist;
+				INFOPLIST_FILE = FoodPin/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,10 +372,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WUJ5ZM42NZ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FoodPin/Info.plist;
+				INFOPLIST_FILE = FoodPin/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
