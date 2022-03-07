@@ -14,7 +14,7 @@ class RestaurantTableViewCell: UITableViewCell {
     @IBOutlet var typeLabel: UILabel!
     @IBOutlet var thumbnailImageView: UIImageView! {
         didSet {
-            thumbnailImageView.layer.cornerRadius = 50
+            thumbnailImageView.layer.cornerRadius = 20.0
             thumbnailImageView.clipsToBounds = true
         }
     }
@@ -23,7 +23,8 @@ class RestaurantTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        self.tintColor = .systemYellow
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
