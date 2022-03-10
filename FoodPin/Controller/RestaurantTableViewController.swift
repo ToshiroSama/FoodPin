@@ -83,6 +83,10 @@ class RestaurantTableViewController: UITableViewController {
         navigationController?.hidesBarsOnSwipe = true
     }
     
+    @IBAction func unwindToHome(segue: UIStoryboardSegue) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     // MARK: - UITableView Diffable Data Source
     
     func configureDataSource() -> RestaurantDiffableDataSource {
