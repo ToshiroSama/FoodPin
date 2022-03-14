@@ -37,6 +37,8 @@
 		63E7237627C38E700014FE3D /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E7237527C38E700014FE3D /* RestaurantTableViewController.swift */; };
 		63E7237827C3A2950014FE3D /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E7237727C3A2950014FE3D /* RestaurantTableViewCell.swift */; };
 		63F3532A27DF3BCB00F2E14C /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F3532827DF3BCB00F2E14C /* Discover.storyboard */; };
+		63F3532C27DF3EE800F2E14C /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F3532B27DF3EE800F2E14C /* AboutTableViewController.swift */; };
+		63F3532E27DF4ABC00F2E14C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F3532D27DF4ABC00F2E14C /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		63E7237527C38E700014FE3D /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
 		63E7237727C3A2950014FE3D /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 		63F3532927DF3BCB00F2E14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = FoodPin/Storyboard/Base.lproj/Discover.storyboard; sourceTree = "<group>"; };
+		63F3532B27DF3EE800F2E14C /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		63F3532D27DF4ABC00F2E14C /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				6386DAA327DB56A200FECAF0 /* WalkthroughContentViewController.swift */,
 				6386DAA527DB58F300FECAF0 /* WalkthroughPageViewController.swift */,
 				6386DAA727DB62AE00FECAF0 /* WalkthroughViewController.swift */,
+				63F3532B27DF3EE800F2E14C /* AboutTableViewController.swift */,
+				63F3532D27DF4ABC00F2E14C /* WebViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 				630D0F8A27CA63D000007806 /* Restaurant.swift in Sources */,
 				639D1CF127D5D12900DCB9ED /* NavigationController.swift in Sources */,
 				6386DAA627DB58F300FECAF0 /* WalkthroughPageViewController.swift in Sources */,
+				63F3532C27DF3EE800F2E14C /* AboutTableViewController.swift in Sources */,
 				63BA31AF27D8AEF400FC9ABC /* ReviewViewController.swift in Sources */,
 				63DF5C4627CCF9390000F227 /* RestaurantDetailTextCell.swift in Sources */,
 				63B7C38627D9C48C001AA1CC /* NewRestaurantViewController.swift in Sources */,
@@ -301,6 +308,7 @@
 				63E7236427C38D2D0014FE3D /* SceneDelegate.swift in Sources */,
 				638BCB5C27D6049200370C14 /* RestaurantDetailMapCell.swift in Sources */,
 				639D544F27CC85C4009FFD69 /* RestaurantDiffableDataSource.swift in Sources */,
+				63F3532E27DF4ABC00F2E14C /* WebViewController.swift in Sources */,
 				6386DAA427DB56A200FECAF0 /* WalkthroughContentViewController.swift in Sources */,
 				63B7C38427D9C1F8001AA1CC /* RoundedTextField.swift in Sources */,
 				6386DAA827DB62AE00FECAF0 /* WalkthroughViewController.swift in Sources */,
